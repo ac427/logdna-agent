@@ -15,8 +15,8 @@
         <key>RunAtLoad</key>
         <true/>
         <key>StandardErrorPath</key>
-        <string>/Library/Logs/logdna-agent.log</string>
+        <string>/var/log/logdna-agent.log</string>
         <key>StandardOutPath</key>
-        <string>/Library/Logs/logdna-agent.log</string>
+        <string>/var/log/logdna-agent.log</string>
 </dict>
 </plist>
