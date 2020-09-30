@@ -4,9 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.0.0] - October 2, 2020
 ### Removed
 - Deprecate the unstable WinEvent Logging component [#194](https://github.com/logdna/logdna-agent/pull/194)
+- Remove Kubernetes support [#196](https://github.com/logdna/logdna-agent/pull/196)
+
+### Changed
+- Use the node client for logging [#195](https://github.com/logdna/logdna-agent/pull/195)
+- Use `eslint-config-logdna` from NPM [#198](https://github.com/logdna/logdna-agent/pull/198)
+- Upgrade node version to `12.16.2` [#199](https://github.com/logdna/logdna-agent/pull/199)
 
 ## [1.6.5] - August 21, 2020
 ### Changed

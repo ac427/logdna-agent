@@ -57,6 +57,8 @@ OLDSHA256CHECKSUM=$(cat ../tools/files/darwin/logdna-agent.rb | grep sha256 | cu
 sed "s/${OLDSHA256CHECKSUM}/${SHA256CHECKSUM}/" ../tools/files/darwin/logdna-agent.rb > logdna-agent.rb
 cd ..
 
+pause
+
 # STEP 4: RELEASE
 ghr \
 	-n "LogDNA Agent v${VERSION}" \
